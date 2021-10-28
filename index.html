@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./src/styles/styles.scss">
+  <title>Vite App</title>
+</head>
+
+<body>
+  <h1 class="heading">To Do App</h1>
+  <div id="app">
+    <input type="text" placeholder="What to do" id="input" autocomplete="off">
+    <button class="add">Add</button>
+    <button class="clear">Clear</button>
+
+  </div>
+  <div class="render"></div>
+  <form data-activeid="">
+    <input type="text"/>
+    <div class="check">
+      <input type="checkbox" id="checkbox"/>
+      <label for="checkbox">Mark as Completed</label>
+    </div>
+    
+    <input type="submit"/>
+    
+  </form>
+
+  <script type="module" src="./src/script/script.js"></script>
+</body>
+
+</html>
